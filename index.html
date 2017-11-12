@@ -1,25 +1,40 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
 <head>
-	<title>Daniel Le</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<title> Our first HTML5 page</title>
+	<meta name = "description" content = "welcome to my basic shit">
+	<link rel="stylesheet" href="css/style.css?v=1">
 </head>
+
 <body>
-	<img class="bg-img" src="img/background.jpg">
-	<nav class="container">
-		<div class="brand">
-			<img class="circle" src="img/profile.jpg">
-		</div><div class="tabs">
-			<ul>
-				<li><a href="index.html">About</a></li>
-				<li><a href="work.html">Work</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
-	<div class="container center homepage">
-		<h1>Welcome to my portfolio site!</h1>
-		<h2>blah</h2>
-	</div>
+	<div id = "wrapper">
+		<header>
+			<h1>Welcome</h1>
+
+			<nav>
+				<ul>
+					<li><a rel = "external" href="#">Home</a></li>
+					<li><a rel = "external" href="#">About</a></li>
+					<li><a rel = "external" href="#">Contact</a></li>
+
+				</ul>
+			</nav>
+		</header>
+
+        <div id="core" class="clearfix">
+            <section id="left">
+              <p>some content here.</p>
+            </section>
+             
+            <section id="right">
+                <p>but some here as well!</p>
+            </section>
+        </div>
+         
+        <footer>
+            <p>Some copyright and legal notices here. Maybe use the © symbol a bit.</p>
+        </footer>
+    </div>
+ 
 </body>
 </html>
