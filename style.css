@@ -136,3 +136,10 @@ img
 	height: auto;
 	width: auto;
 }
+
+a
+{
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
