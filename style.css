@@ -162,6 +162,13 @@ nav ui li{
 	padding: 10px;
 }
 
+section{
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+}
+
 #menu-icon
 {
 	display: hidden;
