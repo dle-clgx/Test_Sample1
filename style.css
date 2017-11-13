@@ -210,3 +210,7 @@ footer{
 	color: #FFF;
 
 }
+
+ul.social li{
+	display:incline;
+}
