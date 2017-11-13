@@ -148,13 +148,12 @@ a:hover
 
 nav 
 {
-	color:#555;
+	color:#FFF;
 }
 
 header
 {
 	background: #405580;
-	color: #FFF;
 	width: 100%;
 	height: 86px;
 	position: fixed;
