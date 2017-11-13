@@ -143,6 +143,20 @@ a:hover
 nav 
 {
 	color:#FFF;
+	padding: 35px 20px 20px 0;
+
+}
+
+a:hover#menu-icon{
+	border-radius: 4px 4px 0 0;
+	
+}
+
+#menu-icon
+{
+	display: hidden;
+	width: 40px;
+	height: 40px;
 }
 
 header
