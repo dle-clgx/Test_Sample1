@@ -111,7 +111,8 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 	padding:0;
 }
 
-body {
+body 
+{
 	font:14px/20px Arial, San-Serif;
 	color:#555;
 	margin:0;
@@ -124,6 +125,7 @@ h1
 	padding:5% 0;
 }
 
-p {
+p 
+{
 	padding:1%;
 }
