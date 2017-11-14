@@ -3,34 +3,6 @@
 https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 */
 
-/* iphone 6,6s,7,8 */
-/*portrait and landscape */
-
-@media only screen
-	and (min-device-width: 375px)
-	and (max-device-width: 667px)
-	and (-webkit-min-device-pixel-ratio:2) {
-
-	}
-
-/* portrait */
-@media only screen
-	and (min-device-width: 375px)
-	and (max-device-width: 667px)
-	and (-webkit-min-device-pixel-ratio:2)
-	and (orientation:portrait) {
-
-	}
-
-/* landscape */
-@media only screen
-	and (min-device-width: 375px)
-	and (max-device-width: 667px)
-	and (-webkit-min-device-pixel-ratio:2)
-	and (orientation:landscape) {
-
-	}
-
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
@@ -39,6 +11,47 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
+  		header{
+		position: absolute;
+	}
+
+	nav ul, nav:active ul{
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #405580;
+		border: 1px solid #FFF;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 2px 0 2px 2px;
+	}
+
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	nav:hover ul{
+		display: block;
+
+	}
+
+	section{
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	aside{
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
 
 }
 
@@ -48,6 +61,48 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+
+  		header{
+		position: absolute;
+	}
+
+	nav ul, nav:active ul{
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #405580;
+		border: 1px solid #FFF;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 2px 0 2px 2px;
+	}
+
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	nav:hover ul{
+		display: block;
+
+	}
+
+	section{
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	aside{
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
 }
 
 /* Landscape */
@@ -57,52 +112,52 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
-}
+  		header{
+		position: absolute;
+	}
 
-/* Laptops */
-/* ----------- Non-Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
+	nav ul, nav:active ul{
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #405580;
+		border: 1px solid #FFF;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 2px 0 2px 2px;
+	}
 
-/* ----------- Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
-}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
 
+	nav:hover ul{
+		display: block;
 
-/* ----------- iPad 1, 2, Mini and Air ----------- */
+	}
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+	section{
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
 
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+	aside{
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
 
 }
+
+
+
 
 /*--------------------------*/
 @media screen and (max-width: 478px)
@@ -112,8 +167,8 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 	}
 }
 
-
-@media screen and (max-width: 478px)
+/*---------------IPAD-----------*/
+@media screen and (max-width: 740px)
 {
 	header{
 		position: absolute;
