@@ -4,15 +4,16 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 */
 
 
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* ----------- iPhone 5----------- */
 
-/* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
   		header{
 		position: absolute;
+		width: 100%;
+
 	}
 
 	nav ul, nav:active ul{
@@ -55,7 +56,6 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
 }
 
-/* Portrait */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
@@ -64,12 +64,13 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
   		header{
 		position: absolute;
+		width: 100%;
 	}
 
 	nav ul, nav:active ul{
 		display: none;
 		position: absolute;
-		padding: 20px;
+		padding: 10px;
 		background: #405580;
 		border: 1px solid #FFF;
 		right: 20px;
@@ -105,7 +106,6 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 	}
 }
 
-/* Landscape */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
@@ -158,8 +158,6 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
 
 
-
-/*--------------------------*/
 @media screen and (max-width: 478px)
 {
 	body{
