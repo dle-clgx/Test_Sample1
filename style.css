@@ -104,6 +104,40 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
 }
 
+/*--------------------------*/
+@media screen and (max-width: 478px)
+{
+	body{
+		position: absolute;
+	}
+}
+
+
+@media screen and (max-width: 478px)
+{
+	header{
+		position: absolute;
+	}
+
+	nav ul, nav:active ul{
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #405580;
+		border: 1px solid #FFF;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 2px 0 2px 2px;
+	}
+}
+
+
+
+/*---------------------------*/
+
+
+
 
 *{
 	margin:0;
