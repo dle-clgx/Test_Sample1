@@ -142,11 +142,6 @@ a:hover
 
 }
 
-div:hover
-{
-	text-decoration: underline;
-	color: #FFF;
-}
 
 
 a:hover#menu-icon{
