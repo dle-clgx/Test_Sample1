@@ -195,8 +195,7 @@ h2
 {
 	line-height: 110%;
 	padding: 5% 0;
-	text-align: center;
-	font-size: 250%;
+	font-size: 200%;
 
 }
 
@@ -207,6 +206,9 @@ p {
 img
 {
 	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
 }
 
 footer{
