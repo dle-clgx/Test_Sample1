@@ -203,12 +203,6 @@ a:hover
 }
 
 
-
-a:hover#menu-icon{
-	border-radius: 4px 4px 0 0;
-
-}
-
 ul{
 	list-style: none;
 
@@ -240,12 +234,8 @@ header
 
 h2
 {
-	padding: 2% 0;
+	padding: 1% 0;
 
-}
-
-img{
-	text-align: right;
 }
 
 footer{
@@ -279,7 +269,7 @@ footer.second{
 }
 
 aside {
-	padding: 2%;
+	padding: 1%;
 	margin: 0 auto;
 	width: 35%
 	height: auto;
