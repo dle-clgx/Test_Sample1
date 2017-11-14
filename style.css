@@ -203,6 +203,10 @@ ul.social li{
 	display:incline;
 }
 
+ul.social div:hover
+{
+	text-decoration: underline;
+}
 
 
 
