@@ -123,7 +123,7 @@ h1
 	text-align: center;
 	font-size: 250%;
 	line-height: 280%;
-	padding:5% 0;
+	padding:2% 0;
 }
 
 
@@ -191,11 +191,17 @@ header
 	
 }
 
-h3
+h2
 {
+	line-height: 110%;
+	padding: 5% 0;
 	text-align: center;
 	font-size: 250%;
 
+}
+
+p {
+	padding: 1%;
 }
 
 img
