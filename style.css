@@ -149,6 +149,13 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 		margin: 0;
 		padding: 0;
 	}
+
+	aside{
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
 }
 
 
