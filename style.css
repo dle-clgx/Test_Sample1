@@ -388,15 +388,14 @@ p{
     position: fixed;
     left: 0;
     right: 0;
-    height: 50%;
+    height: 100%;
 }
 
 #top {
     top: 0;
-    background-color: orange;
 }
 
 #bottom {
     bottom: 0;
-    background-color: green;
+    background-color: gray;
 }
