@@ -382,3 +382,21 @@ p{
 	font-family: "Times New Roman", Georgia, Serif;
 
 }
+
+#top,
+#bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50%;
+}
+
+#top {
+    top: 0;
+    background-color: orange;
+}
+
+#bottom {
+    bottom: 0;
+    background-color: green;
+}
