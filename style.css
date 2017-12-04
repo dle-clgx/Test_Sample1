@@ -383,6 +383,7 @@ p{
 
 }
 
+/*
 #top,
 #bottom {
     position: fixed;
@@ -399,3 +400,5 @@ p{
     bottom: 0;
     background-color: gray;
 }
+
+*/ 

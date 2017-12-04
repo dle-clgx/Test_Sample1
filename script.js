@@ -17,3 +17,4 @@ function linkedin()
 {
 	window.location = "https://www.linkedin.com/in/daniel-le-154b41135/";
 }
+

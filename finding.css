@@ -1,0 +1,42 @@
+html, body { height: 100%; padding: 0; margin: 5; }
+div { width: 100%; height: 100%; align = center; }
+#mid { background: #AAA; }
+#mid2 { background: #777; }
+#bottom { background: #444; }
+
+
+.cover { 
+	background-size: cover;
+	max-width: 100%;
+	width: auto;
+	height: 250px;
+
+ }
+
+ img{
+ 	background-size: cover;
+ 	width: 100%;
+ 	height: 750px;
+ }
+
+ #mid{
+ 	width: 100%;
+ 	height: 100%;
+ 	align: center;
+ }
+
+h1 {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+}
+
+text {
+	background-font: white;
+	opacity: .9;
+	font-size: 150px;
+	color: white;
+}
