@@ -137,7 +137,14 @@ pre {
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
  .cover{
  	width: 100%;
- 	
+
+ }
+
+ html, body{
+ 	margin: 0;
+ 	padding: 0;
+ 	width: 100%;
+ 	height: 100%;
  }
 
 
