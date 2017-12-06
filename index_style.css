@@ -32,7 +32,24 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	background: white;
+	color: white;
+	font-size: 130px;
+	font-family: 'courier';
 }
+
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
 
 text {
 	background-font: white;
@@ -172,3 +189,6 @@ pre {
 	}
 
  }
+
+
+
