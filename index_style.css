@@ -132,7 +132,7 @@ pre {
 }
 
 
-@media (min-width:1025px) {
+@media only screen and  (max-width:1025px) {
  /* big landscape tablets, laptops, and desktops */
 
 
@@ -144,15 +144,9 @@ pre {
   }
 
 
-@media (min-width:320px)  { 
+@media only screen and (max-width:320px)  { 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-.cover { 
-	background-size: cover;
-	width: 100;
-
- }
-
-
+ background-image: url(cover.jpg)
 
 
  }
