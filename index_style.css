@@ -139,8 +139,12 @@ pre {
 		font-size: 10px;
 	}
 
-	text, .about{
+	text{
 		font-size: 30px;
+	}
+
+	.about{
+		font-size: 15px;
 	}
 
 
