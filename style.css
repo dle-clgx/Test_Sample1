@@ -269,8 +269,7 @@ body
 }
 
 .main{
-	max-width: 1000px;
-	margin: auto;
+	max-width: 100%;
 }
 
 
@@ -281,6 +280,12 @@ h1
 	padding:2% 0;
 	margin-left: 100px;
 	width: 100%;
+
+		display: block;
+	font-family: 'courier';
+	text-align: center;
+	font-size: 50px;
+	opacity: .75;
 }
 
 
