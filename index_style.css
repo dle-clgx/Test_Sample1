@@ -132,22 +132,12 @@ pre {
 }
 
 
-@media only screen and  (max-width:1025px) {
- /* big landscape tablets, laptops, and desktops */
-
-
-
-
-
-
-
-  }
-
 
 @media only screen and (max-width:320px)  { 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
  background-image: url(cover.jpg);
- width: 100%;
+ width: auto;
+ height: auto;
 
 
  }
