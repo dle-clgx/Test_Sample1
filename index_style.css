@@ -136,7 +136,9 @@ pre {
 @media only screen and (max-width:320px)  { 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
  .cover{
- 	width: 100%;
+ 	display: inline-block;
+ 	border-left: 0;
+ 	text-align: center;
 
  }
 
@@ -145,6 +147,10 @@ pre {
  	padding: 0;
  	width: 100%;
  	height: 100%;
+ }
+
+ div{
+ 	width: 80%;
  }
 
 
