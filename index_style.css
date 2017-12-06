@@ -156,10 +156,15 @@ pre {
  .image1, .image2, .image3, .image4, .image5, .image6{
  	width: 4%;
  	height: 4%;
+ 	background-size: contain;
  }
 
  #mid, #mid2, #bottom{
  	width: 100%;
+ }
+
+ .about{
+ 	background-size: contain;
  }
 
 
