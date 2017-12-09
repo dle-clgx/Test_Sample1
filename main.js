@@ -69,4 +69,7 @@ function github()
   window.location = "https://github.com/danienl1";
 }
 
-
+function scrollbottom()
+{
+  window.scrollTo(0,5000);
+}
