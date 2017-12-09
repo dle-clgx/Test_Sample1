@@ -275,13 +275,12 @@ body
 
 h1 
 {
-	font-size: 250%;
-	line-height: 280%;
+	line-height: 120%;
 	padding:2% 0;
 	margin-left: 100px;
-	width: 100%;
-
-		display: block;
+	width: 250%;
+	color: black;
+	display: block;
 	font-family: 'courier';
 	text-align: center;
 	font-size: 50px;
@@ -336,7 +335,12 @@ header
 
 h2
 {
+	font-size: 30px;
 	padding: 1% 0;
+	align: center;
+	font-family: 'courier';
+	opacity: .8;
+	color: black;
 
 }
 
