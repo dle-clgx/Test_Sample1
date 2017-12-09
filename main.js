@@ -1,3 +1,5 @@
+//Typewriter function from CSS-TRICKS.COM
+
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
   var dataText = [ "Hello", "World", "Welcome!"];
@@ -40,3 +42,31 @@ document.addEventListener('DOMContentLoaded',function(event){
   // start the text animation
   StartTextAnimation(0);
 });
+
+
+function showcontact()
+{
+  document.getElementById("contact").style.display = 'block';
+}
+
+function email()
+{
+  window.location = "mailto:le.daniel.nam@gmail.com";
+}
+
+function facebook()
+{
+  window.location = "https://www.facebook.com/daniel.ton.714";
+}
+
+function linkedin()
+{
+  window.location = "https://www.linkedin.com/in/daniel-le-154b41135/";
+}
+
+function github()
+{
+  window.location = "https://github.com/danienl1";
+}
+
+
