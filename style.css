@@ -390,6 +390,16 @@ p{
 
 }
 
+.summary{
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	margin: 0;
+	margin-left: 500px;
+}
+
 /*
 #top,
 #bottom {
