@@ -159,6 +159,7 @@ pre {
 
 	text{
 		font-size: 30px;
+		text-align: center;
 	}
 
 	.about{
@@ -166,9 +167,10 @@ pre {
 	}
 
 
-	.image2, .image3, .image4, .image5 {
+	.image2, .image3, .image4, .image5, .image6 {
 		display: none;
 	}
+
 
 
 
