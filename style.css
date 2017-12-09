@@ -390,6 +390,12 @@ p{
 
 }
 
+button{
+	padding: 0;
+	border: none;
+	background: none;
+}
+
 .summary{
 	display: inline-block;
 	width: 100%;
