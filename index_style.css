@@ -107,6 +107,7 @@ pre {
 	height: 300px;
 	opacity: .9;
 	float: left;
+	margin-left: 170px;
 }
 
 .image3 {
@@ -116,7 +117,7 @@ pre {
 	opacity: .9;
 	float: right;
 	margin-top: 40px;
-	margin-right: 20px;
+	margin-right: 220px;
 
 
 }
@@ -126,7 +127,7 @@ pre {
 	height: 300px;
 	align-content: center;
 	vertical-align: middle;
-	margin-left: 510px;
+	margin-left: 350px;
 	margin-top: 10px;
 }
 
@@ -162,6 +163,11 @@ pre {
 
 	.about{
 		font-size: 15px;
+	}
+
+
+	.image2, .image3, .image4, .image5 {
+		display: none;
 	}
 
 
