@@ -100,16 +100,16 @@ pre {
 
 
 .image2 {
-	width: 200px;
-	height: 200px;
+	width: 174px;
+	height: 174px;
 	opacity: .9;
 	float: left;
 	margin-left: 170px;
 }
 
 .image3 {
-	width: 200px;
-	height: 167px;
+	width: 151px;
+	height: 145px;
 	/*vertical-align: middle;*/ 
 	opacity: .9;
 	float: right;
@@ -120,11 +120,11 @@ pre {
 }
 
 .image4 {
-	width: 200px;
-	height: 200px;
+	width: 174px;
+	height: 174px;
 	align-content: center;
 	vertical-align: middle;
-	margin-left: 350px;
+	margin-left: 500px;
 	margin-top: 10px;
 }
 
