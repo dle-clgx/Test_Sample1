@@ -127,6 +127,8 @@ pre {
 	height: 174px;
 	align-content: center;
 	vertical-align: middle;
+	display: block;
+	display: inline-block;
 	margin-left: 400px;
 }
 
