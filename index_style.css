@@ -9,14 +9,14 @@ div { width: 100%; height: 100%; align = center; }
 	background-size: cover;
 	max-width: 100%;
 	width: auto;
-	height: 250px;
+	height: 0px;
 
  }
 
  img{
  	background-size: cover;
  	width: 100%;
- 	height: 750px;
+ 	height: 502px;
  }
 
  #mid{
@@ -99,7 +99,6 @@ pre {
     margin: 5px;
     width: 220px;
 }
-
 
 
 .image2 {
