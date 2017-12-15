@@ -108,23 +108,26 @@ pre {
 	margin-left: 170px;
 }
 
+
+/* UI UX */ 
 .image3 {
 	width: 151px;
 	height: 145px;
 	/*vertical-align: middle;*/ 
 	opacity: .9;
 	float: right;
-	margin-right: 220px;
+	margin-right: 200px;
 
 
 }
 
+/* middle */
 .image4 {
 	width: 174px;
 	height: 174px;
 	align-content: center;
 	vertical-align: middle;
-	margin-left: 300px;
+	margin-left: 350px;
 }
 
 .image5{
